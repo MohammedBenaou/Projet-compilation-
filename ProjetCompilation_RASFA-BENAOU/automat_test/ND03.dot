@@ -1,0 +1,22 @@
+digraph Automate {
+begin[style=invisible];
+"begin"-> 0[shape=polygone,color=blue];
+0->1[label = "a/null"]
+0->2[label = "b/null"]
+1->3[label = "a/null"]
+1->4[label = "b/null"]
+2->5[label = "a/null"]
+2->6[label = "b/null"]
+3->P[label = "a"]
+3->P[label = "b"]
+4->3[label = "a/null"]
+4->4[label = "b/null"]
+5->5[label = "a/null"]
+5->6[label = "b/null"]
+6->P[label = "a"]
+6->P[label = "b"]
+P->P[label = "a"]
+P->P[label = "b"]
+3[shape=circle,color=blue,peripheries=2]; 
+6[shape=circle,color=blue,peripheries=2]; 
+}

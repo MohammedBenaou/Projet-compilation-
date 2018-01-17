@@ -1,0 +1,10 @@
+digraph Automate {
+begin[style=invisible];
+"begin"-> 0[shape=polygone,color=blue];
+0->1[label = "a/null"]
+0->1[label = "b/null"]
+0->0[label = "c/null"]
+0[shape=circle,color=blue,peripheries=2]; 
+2[shape=circle,color=blue,peripheries=2]; 
+3[shape=circle,color=blue,peripheries=2]; 
+}
